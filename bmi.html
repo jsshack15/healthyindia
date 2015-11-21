@@ -1,0 +1,155 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="language" content="english"> 
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+
+<title>BMI Calculator</title>
+
+<style type="text/css">
+form {
+    width:638px;
+    padding:20px 0;
+    border:3px double #999;
+    margin:20px auto;
+    font-family:'trebuchet ms';
+    font-size:15px; 
+    text-align:center; 
+    background:url("flag.jpg") no-repeat ;
+    background-size:cover
+ }
+form div {
+    padding:10px;
+ }
+form label{
+    margin:0 10px;
+ }
+form input{
+     width:100px;
+ }
+#bmi {
+    width:377px;
+ }
+table {
+    margin:auto;
+ }
+.highlight {
+    background-color:#909;
+ }
+ #h{
+  background-color:#CD5C5C;
+  text-align:center;
+ }
+ #d{
+  background:url("im.jpg");
+ }
+</style>
+
+<script type="text/javascript">
+
+   var finalBmi;
+   var id;
+   var tds=document.getElementsByTagName('td');
+
+function calculateBmi() {
+
+ var weight=document.bmiForm.weight.value
+ var height=document.bmiForm.height.value
+
+if((weight>0)&&(height>0)){	
+   finalBmi=weight/(height/100*height/100)
+   document.bmiForm.bmi.value=finalBmi;
+ }
+else{
+   alert('Invalid entry')
+  }
+ }
+
+function highlight() {
+for(c=0;c<tds.length;c++){
+   tds[c].className='';
+ }
+if(finalBmi){ 
+if(finalBmi>30) {
+   id='obese';
+ }
+if(finalBmi<=30) {
+   id='overweight';
+ }
+if(finalBmi<=25) {
+   id='healthy';
+ }
+if(finalBmi<20) {
+   id='underweight';
+ }
+if(finalBmi<18) {
+   id='veryUnderweight';
+ }
+   document.getElementById(id).className='highlight';
+  }	
+ }
+
+function init(){
+   document.getElementById('button0').onclick=function() {
+   highlight();
+ }
+document.getElementById('button1').onclick=function(){
+   calculateBmi();
+  }
+document.getElementById('reset').onclick=function(){
+
+for(c=0;c<tds.length;c++){
+   tds[c].className='';
+   }
+   finalBmi='';
+  }
+ }
+   window.addEventListener?
+   window.addEventListener('load',init,false):
+   window.attachEvent('onload',init);
+</script>
+
+</head>
+<body bgcolor="#E6E6FA">
+<div id="d">
+<h1 id="h"><b>CALCULATE YOUR BMI<b></h>
+</div>
+<div>
+
+</div>
+
+<form name="bmiForm" action="get" >
+<div>
+ <label>Your Weight (kg):</label> 
+ <input type="text" name="weight" maxlength="4">
+ <label>Your Height (cm):</label> 
+ <input type="text" name="height" maxlength="4">
+</div><div>
+ <input id="button1" type="button" value="Calculate BMI">
+</div><div>
+ <label>Your BMI is:</label>
+ <input  id="bmi" type="text" name="bmi">
+</div><div>
+ <input id="reset" type="reset" value="reset">
+ <button id="button0" >Highlight</button>
+</div>
+</form>
+
+<table border="1"><tr>
+<td id="veryUnderweight">Under 18 - You are very underweight and possibly malnourished.</td>
+</tr><tr>
+<td id="underweight">Under 20 - You are underweight and could afford to gain a little weight.</td>
+</tr><tr>
+<td id="healthy">20 to 25 - You have a healthy weight range for young and middle aged adults.</td>
+</tr><tr>
+<td id="overweight">26 to 30 - You are Overweight.</td>
+</tr><tr>
+<td id="obese">Over 30 - You are obese.</td>
+</tr></table>
+
+</body>
+</html>
