@@ -21,26 +21,28 @@
 	#sub{
 		padding:5px;
         background-color: #dcdcdc;
-        border: 1px solid #666;
+        border: 1px solname #666;
         color:#000;
         text-decoration:none;
 	}
 </style>
-<body>
+<body background="g.jpg">
 
-<div id="div1">
-	<p id="p1" align="center">Sign Up For Your Health</p>
+<div name="div1">
+	<p name="p1" align="center">Sign Up For Your Health</p>
 </div>
-<form action="welcome.php" method="post">
-<div id="div2">
-	<p><input type="input" placeholder="Name" id="n"></p>
-	<p><input type="input" placeholder="Age" id="a"></p>
+
+
+<form  method="POST" action="submit1.php">
+<div name="div2">
+	<p><input type="input" placeholder="Name" name="n"></p>
+	<p><input type="input" placeholder="Age" name="a"></p>
 	
-	<br><input type="checkbox" id="chck"><b>Female</b>&nbsp&nbsp<input type="checkbox" id="chck"><b>Male</b><br>
-	<p></p>
-	<p><input type="input" placeholder="E-mail" id="e" ></p>
-	<p><input type="input" placeholder="Username" id="u"></p>
-	<p><input type="password" placeholder="Password" id="pwd" ></p>
+	<p><input type="input" placeholder="gender" name="g"></p>
+	
+	<p><input type="email" placeholder="E-mail" name="e" ></p>
+	<p><input type="input" placeholder="Username" name="u"></p>
+	<p><input type="password" placeholder="Password" name="pwd" ></p>
 	<p><button type="submit">Create Account</button></p>
 </div>
 </form>

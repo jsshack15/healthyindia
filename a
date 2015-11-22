@@ -1,0 +1,228 @@
+<div id="icons">
+                    
+                        <section>
+                            <div class="tabs lineslide">
+                                <nav>
+                                    <ul>
+                                        <div class="profile-nav-tab-marker" style="left: 0px; width: 84px; margin-left: 10.5px;"></div>
+                                        <li id="doctorTab" class="tab-current"><a href="#doctor-tab"><i class="doctor-icon"></i><br><span class="middle">Doctors</span></a></li>
+                                        
+                                            <li><a href="#diagnostic-tab"><i class="diagnostic-icon"></i><span>Diagnostic<br>Labs</span></a></li>
+                                        
+                                        
+                                            <li><a href="#wellness-tab"><i class="wellness-icon"></i><span>Spas &amp;<br>Salons</span></a></li>
+                                        
+                                        
+                                            <li><a href="#fitness-tab"><i class="fitness-icon"></i><br><span class="middle">Fitness</span></a></li>
+                                        
+                                    </ul>
+                                </nav>
+                                
+                                <hr class="nomargin">
+                                <div class="content-wrap">
+                                    <section id="doctor-tab" class="content-current">
+                                        <div class="tests-container">
+                                                                                                                                         <a href="https://www.practo.com/bangalore/dentist" data-speciality="dentist" class="speciality-icons">
+                                                   <i class="dentist-icon"></i>
+                                                   <p class="test-name">Dentist</p>
+                                               </a>
+                                                                                                                                         <a href="https://www.practo.com/bangalore/ophthalmologist" data-speciality="ophthalmologist" class="speciality-icons">
+                                                   <i class="ophthalmologist-icon"></i>
+                                                   <p class="test-name">Ophthalmologist</p>
+                                               </a>
+                                                                                                                                         <a href="https://www.practo.com/bangalore/dermatologist-cosmetologist" data-speciality="dermatologist-cosmetologist" class="speciality-icons">
+                                                   <i class="dermatologist-cosmetologist-icon"></i>
+                                                   <p class="test-name">Dermatologist/Cosmetologist</p>
+                                               </a>
+                                                                                                                                         <a href="https://www.practo.com/bangalore/homeopath" data-speciality="homeopath" class="speciality-icons">
+                                                   <i class="homeopath-icon"></i>
+                                                   <p class="test-name">Homeopath</p>
+                                               </a>
+                                                                                                                                         <a href="https://www.practo.com/bangalore/ayurveda" data-speciality="ayurveda" class="speciality-icons">
+                                                   <i class="ayurveda-icon"></i>
+                                                   <p class="test-name">Ayurveda</p>
+                                               </a>
+                                                                                                                                         <a href="https://www.practo.com/bangalore/cardiologist" data-speciality="cardiologist" class="speciality-icons">
+                                                   <i class="cardiologist-icon"></i>
+                                                   <p class="test-name">Cardiologist</p>
+                                               </a>
+                                                                                                                                         <a href="https://www.practo.com/bangalore/gastroenterologist" data-speciality="gastroenterologist" class="speciality-icons">
+                                                   <i class="gastroenterologist-icon"></i>
+                                                   <p class="test-name">Gastroenterologist</p>
+                                               </a>
+                                                                                                                                         <a href="https://www.practo.com/bangalore/psychiatrist" data-speciality="psychiatrist" class="speciality-icons">
+                                                   <i class="psychiatrist-icon"></i>
+                                                   <p class="test-name">Psychiatrist</p>
+                                               </a>
+                                                                                                                                         <a href="https://www.practo.com/bangalore/ear-nose-throat-ENT-specialist" data-speciality="ear-nose-throat-ENT-specialist" class="speciality-icons">
+                                                   <i class="ear-nose-throat-ENT-specialist-icon"></i>
+                                                   <p class="test-name">Ear-Nose-Throat (ENT)</p>
+                                               </a>
+                                                                                                                                         <a href="https://www.practo.com/bangalore/gynecologist-obstetrician" data-speciality="gynecologist-obstetrician" class="speciality-icons">
+                                                   <i class="gynecologist-obstetrician-icon"></i>
+                                                   <p class="test-name">Gynecologist/Obstetrician</p>
+                                               </a>
+                                                                                                                                         <a href="https://www.practo.com/bangalore/neurologist" data-speciality="neurologist" class="speciality-icons">
+                                                   <i class="neurologist-icon"></i>
+                                                   <p class="test-name">Neurologist</p>
+                                               </a>
+                                                                                                                                         <a href="https://www.practo.com/bangalore/urologist" data-speciality="urologist" class="speciality-icons">
+                                                   <i class="urologist-icon"></i>
+                                                   <p class="test-name">Urologist</p>
+                                               </a>
+                                                                                      <div class="clear"></div>
+                                        </div>
+                                    </section>
+                                    
+                                    
+                                    
+                                        <section id="diagnostic-tab">
+                                            <div class="tests-container">
+                                                                                                                                                     <a href="https://www.practo.com/bangalore/diagnostics/tests" data-test="tests" class="test-icon" data-segment="diagnostics">
+                                                       <i class="tests-icon"></i>
+                                                       <p class="test-name">All Labs</p>
+                                                   </a>
+                                                                                                                                                     <a href="https://www.practo.com/bangalore/diagnostics/thyroid-profile" data-test="thyroid-profile" class="test-icon" data-segment="diagnostics">
+                                                       <i class="thyroid-profile-icon"></i>
+                                                       <p class="test-name">Thyroid Profile</p>
+                                                   </a>
+                                                                                                                                                     <a href="https://www.practo.com/bangalore/diagnostics/lipid-profile" data-test="lipid-profile" class="test-icon" data-segment="diagnostics">
+                                                       <i class="lipid-profile-icon"></i>
+                                                       <p class="test-name">Lipid Profile</p>
+                                                   </a>
+                                                                                                                                                     <a href="https://www.practo.com/bangalore/diagnostics/complete-blood-count" data-test="complete-blood-count" class="test-icon" data-segment="diagnostics">
+                                                       <i class="complete-blood-count-icon"></i>
+                                                       <p class="test-name">Complete Blood Count</p>
+                                                   </a>
+                                                                                                                                                     <a href="https://www.practo.com/bangalore/diagnostics/x-ray" data-test="x-ray" class="test-icon" data-segment="diagnostics">
+                                                       <i class="x-ray-icon"></i>
+                                                       <p class="test-name">X-ray</p>
+                                                   </a>
+                                                                                                                                                     <a href="https://www.practo.com/bangalore/diagnostics/hiv-1-2" data-test="hiv-1-2" class="test-icon" data-segment="diagnostics">
+                                                       <i class="hiv-1-2-icon"></i>
+                                                       <p class="test-name">HIV 1 &amp; 2</p>
+                                                   </a>
+                                                                                                                                                     <a href="https://www.practo.com/bangalore/diagnostics/pregnancy-test" data-test="pregnancy-test" class="test-icon" data-segment="diagnostics">
+                                                       <i class="pregnancy-test-icon"></i>
+                                                       <p class="test-name">Pregnancy Test</p>
+                                                   </a>
+                                                                                                                                                     <a href="https://www.practo.com/bangalore/diagnostics/urine-culture-and-sensitivity" data-test="urine-culture-and-sensitivity" class="test-icon" data-segment="diagnostics">
+                                                       <i class="urine-culture-and-sensitivity-icon"></i>
+                                                       <p class="test-name">Urine Culture and Sensitivity</p>
+                                                   </a>
+                                                                                                                                                     <a href="https://www.practo.com/bangalore/diagnostics/stool-routine" data-test="stool-routine" class="test-icon" data-segment="diagnostics">
+                                                       <i class="stool-routine-icon"></i>
+                                                       <p class="test-name">Stool Routine</p>
+                                                   </a>
+                                                                                                                                                     <a href="https://www.practo.com/bangalore/diagnostics/ct-scan" data-test="ct-scan" class="test-icon" data-segment="diagnostics">
+                                                       <i class="ct-scan-icon"></i>
+                                                       <p class="test-name">CT Scan</p>
+                                                   </a>
+                                                                                                                                                     <a href="https://www.practo.com/bangalore/diagnostics/semen-analysis" data-test="semen-analysis" class="test-icon" data-segment="diagnostics">
+                                                       <i class="semen-analysis-icon"></i>
+                                                       <p class="test-name">Semen Analysis</p>
+                                                   </a>
+                                                                                                                                                     <a href="https://www.practo.com/bangalore/diagnostics/mri-scan" data-test="mri-scan" class="test-icon" data-segment="diagnostics">
+                                                       <i class="mri-scan-icon"></i>
+                                                       <p class="test-name">MRI Scan</p>
+                                                   </a>
+                                                                                              <div class="clear"></div>
+                                            </div>
+                                        </section>
+                                    
+                                    
+                                    
+                                    
+                                        <section id="wellness-tab">
+                                            <div class="tests-container">
+                                                                                                <a href="https://www.practo.com/bangalore/wellness-centers/spas" data-test="spas" class="wellness-icons" data-segment="wellness-centers">
+                                                   <i class="spa-icon"></i>
+                                                   <p class="test-name">Spa</p>
+                                                </a>
+                                                                                                                                                       <a href="https://www.practo.com/bangalore/wellness-centers/hair-cut-for-men" data-test="hair-cut-for-men" class="wellness-icons" data-segment="wellness-centers">
+                                                       <i class="hair-cut-for-men-icon"></i>
+                                                       <p class="test-name">Haircut for Men</p>
+                                                   </a>
+                                                                                                                                                        <a href="https://www.practo.com/bangalore/wellness-centers/hair-cut-for-women" data-test="hair-cut-for-women" class="wellness-icons" data-segment="wellness-centers">
+                                                       <i class="hair-cut-for-women-icon"></i>
+                                                       <p class="test-name">Haircut for Women</p>
+                                                   </a>
+                                                                                                                                                        <a href="https://www.practo.com/bangalore/wellness-centers/waxing" data-test="waxing" class="wellness-icons" data-segment="wellness-centers">
+                                                       <i class="waxing-icon"></i>
+                                                       <p class="test-name">Waxing</p>
+                                                   </a>
+                                                                                                                                                        <a href="https://www.practo.com/bangalore/wellness-centers/shaving" data-test="shaving" class="wellness-icons" data-segment="wellness-centers">
+                                                       <i class="shaving-icon"></i>
+                                                       <p class="test-name">Shaving</p>
+                                                   </a>
+                                                                                                                                                        <a href="https://www.practo.com/bangalore/wellness-centers/body-massage" data-test="body-massage" class="wellness-icons" data-segment="wellness-centers">
+                                                       <i class="body-massage-icon"></i>
+                                                       <p class="test-name">Body Massage</p>
+                                                   </a>
+                                                                                                                                                        <a href="https://www.practo.com/bangalore/wellness-centers/facial" data-test="facial" class="wellness-icons" data-segment="wellness-centers">
+                                                       <i class="facial-icon"></i>
+                                                       <p class="test-name">Facial</p>
+                                                   </a>
+                                                                                                                                                        <a href="https://www.practo.com/bangalore/wellness-centers/manicure" data-test="manicure" class="wellness-icons" data-segment="wellness-centers">
+                                                       <i class="manicure-icon"></i>
+                                                       <p class="test-name">Manicure</p>
+                                                   </a>
+                                                                                                                                                        <a href="https://www.practo.com/bangalore/wellness-centers/pedicure" data-test="pedicure" class="wellness-icons" data-segment="wellness-centers">
+                                                       <i class="pedicure-icon"></i>
+                                                       <p class="test-name">Pedicure</p>
+                                                   </a>
+                                                                                                                                                        <a href="https://www.practo.com/bangalore/wellness-centers/threading" data-test="threading" class="wellness-icons" data-segment="wellness-centers">
+                                                       <i class="threading-icon"></i>
+                                                       <p class="test-name">Threading</p>
+                                                   </a>
+                                                                                                                                                        <a href="https://www.practo.com/bangalore/wellness-centers/bleaching" data-test="bleaching" class="wellness-icons" data-segment="wellness-centers">
+                                                       <i class="bleaching-icon"></i>
+                                                       <p class="test-name">Bleaching</p>
+                                                   </a>
+                                                                                                                                                        <a href="https://www.practo.com/bangalore/wellness-centers/make-up" data-test="make-up" class="wellness-icons" data-segment="wellness-centers">
+                                                       <i class="make-up-icon"></i>
+                                                       <p class="test-name">Make-up</p>
+                                                   </a>
+                                                                                                  <div class="clear"></div>
+                                            </div>
+                                        </section>
+                                    
+                                    
+                                    
+                                
+                                    <section id="fitness-tab">
+                                        <div class="tests-container">
+                                                                                        <a href="https://www.practo.com/bangalore/fitness-centers/gyms" data-test="gyms" class="fitness-icons" data-segment="fitness-centers">
+                                               <i class="gyms-icon"></i>
+                                               <p class="test-name">Gyms</p>
+                                           </a>
+                                                                                                                                                  <span class="fitness-icons">
+                                                     <i class="yoga-centres-icon"></i>
+                                                     <p class="test-name disabled">Yoga Centres</p>
+                                                     <p class="test-name disabled">Coming Soon</p>
+                                                    </span>
+                                                                                                                                                                                                         <span class="fitness-icons">
+                                                     <i class="aerobics-icon"></i>
+                                                     <p class="test-name disabled">Aerobics</p>
+                                                     <p class="test-name disabled">Coming Soon</p>
+                                                    </span>
+                                                                                                                                                                                                         <span class="fitness-icons">
+                                                     <i class="pilates-icon"></i>
+                                                     <p class="test-name disabled">Pilates</p>
+                                                     <p class="test-name disabled">Coming Soon</p>
+                                                    </span>
+                                                                                                                                                                                                         <span class="fitness-icons">
+                                                     <i class="zumba-icon"></i>
+                                                     <p class="test-name disabled">Zumba</p>
+                                                     <p class="test-name disabled">Coming Soon</p>
+                                                    </span>
+                                                                                                                                                 <div class="clear"></div>
+                                            </div>
+                                        </section>
+                                    
+                                    
+                                </div>
+                            </div>
+                        </section>
+                    
+                </div>
